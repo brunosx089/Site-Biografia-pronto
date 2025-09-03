@@ -1,0 +1,32 @@
+@import url(variable.css);
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    background-image: url(img/fundo.png);
+}
+
+ul>li{
+    display: inline;
+    text-transform: uppercase;
+    list-style: none;
+    color: var(--cor-menu);
+    font-family: var(--font-family-site);
+}
+
+#menu{
+    background-color: var(--cor-de-fundo-menu);
+    height: 30px;
+    margin-top: -15px;
+}
+
+.container{
+    width: 900px;
+}
+
+#conteudo{
+    background-color: var(--cor-de-fundo-conteudo);
+    padding: 5px;
+    
+}
+
